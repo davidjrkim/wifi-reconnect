@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG_PATH="/home/david/wifi-reconnect/wifi-log.txt"
+LOG_PATH="$HOME/wifi-reconnect/wifi-log.txt"
 INTERFACE="wlan0"
 
 SSID=$(/usr/sbin/iwgetid --raw)
