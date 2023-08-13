@@ -1,0 +1,6 @@
+[Unit]
+Description=WiFi Check Service
+
+[Service]
+Type=simple
+ExecStart=/home/david/wifi-reconnect.sh

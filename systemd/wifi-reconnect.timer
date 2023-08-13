@@ -1,0 +1,10 @@
+[Unit]
+Description=WiFi Check Timer
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=2min
+Unit=wifi-reconnect.service
+
+[Install]
+WantedBy=timers.target
