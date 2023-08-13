@@ -28,7 +28,7 @@ $ sudo systemctl start my-task.timer
 
 ## Bash script
 
-This is pretty ambitious
+This is pretty self-explanatory
 
 ```bash
 #!/bin/bash
