@@ -3,4 +3,4 @@ Description=WiFi Check Service
 
 [Service]
 Type=simple
-ExecStart=/home/david/wifi-reconnect.sh
+ExecStart=$HOME/wifi-reconnect.sh
